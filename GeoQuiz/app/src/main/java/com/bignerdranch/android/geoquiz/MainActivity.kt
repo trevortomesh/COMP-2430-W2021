@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity() {
         trueButton = findViewById(R.id.true_button)
         falseButton = findViewById(R.id.false_button)
 
+        private val questionBank = listOf(
+                Question(R.string.question_Alberta, false)
+        )
+
         trueButton.setOnClickListener { view: View ->
             //Log.i("true","clicked true!")
             Toast.makeText(

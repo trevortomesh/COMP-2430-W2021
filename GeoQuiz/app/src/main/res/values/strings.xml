@@ -1,8 +1,17 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
-    <string name="question_text">Toronto is the capital of Canada.</string>
+    <string name="capital_canada">Toronto is the Capital of Canada.</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
+    <string name = "next_button">Next</string>
+
+    <string name = "question_superior">Is Lake Superior the world\'s largest freshwater lake?</string>
+    <string name = "question_Manitoba">Is Manitoba the best province?</string>
+    <string name = "question_provinces">There are 13 province and territories.</string>
+    <string name = "question_spark">Stanley Park is in Quebec.</string>
+    <string name = "question_Alberta">Head-Smashed-In Buffalo Jump is a town in Alberta.</string>
+    <string name = "question_Saskatchewan">Saskatchewan does not adopt day light savings.</string>
+
 </resources>
