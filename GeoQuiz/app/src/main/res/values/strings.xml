@@ -9,9 +9,9 @@
 
     <string name = "question_superior">Is Lake Superior the world\'s largest freshwater lake?</string>
     <string name = "question_Manitoba">Is Manitoba the best province?</string>
-    <string name = "question_provinces">There are 13 province and territories.</string>
+    <string name = "question_provinces">There are 13 provinces and territories.</string>
     <string name = "question_spark">Stanley Park is in Quebec.</string>
     <string name = "question_Alberta">Head-Smashed-In Buffalo Jump is a town in Alberta.</string>
-    <string name = "question_Saskatchewan">Saskatchewan does not adopt day light savings.</string>
+    <string name = "question_Saskatchewan">Saskatchewan does not use daylight savings.</string>
 
 </resources>
