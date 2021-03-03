@@ -2,6 +2,7 @@ package com.bignerdranch.android.geoquiz
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import android.util.Log
 import android.view.View
 import android.widget.Button
@@ -11,6 +12,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 
 private const val TAG = "MainActivity"
+private const val KEY_INDEX = "index"
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,6 +34,8 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onCreate(Bundle?) called")
         setContentView(R.layout.activity_main)
 
+        val currentIndex = savedInstanceState?.getInt(KEY_INDEX,0) ?: 0
+        quizViewModel.currentIndex = currentIndex
 
 
         trueButton = findViewById(R.id.true_button)
@@ -73,6 +77,12 @@ class MainActivity : AppCompatActivity() {
     override fun onPause(){
         super.onPause()
         Log.d(TAG, "onPause() called")
+    }
+
+    override fun onSaveInstanceState(savedInstanceState: Bundle) {
+        super.onSaveInstanceState(savedInstanceState)
+        Log.i(TAG,"onSaveInstanceState")
+        savedInstanceState.putInt(KEY_INDEX, quizViewModel.currentIndex)
     }
 
     override fun onStop(){
