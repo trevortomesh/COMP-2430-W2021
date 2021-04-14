@@ -2,5 +2,12 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
+    <color name="purple_200">#D81B60</color>
+    <color name="purple_500">#D81B60</color>
+    <color name="purple_700">#D81B60</color>
+    <color name="white">#D81B60</color>
+    <color name="teal_200">#D81B60</color>
+    <color name="teal_700">#D81B60</color>
+    <color name="black">#D81B60</color>
     <color name="colorAccent">#D81B60</color>
 </resources>
